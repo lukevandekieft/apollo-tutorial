@@ -13,6 +13,7 @@ class UserAPI extends DataSource {
    * like caches and context. We'll assign this.context to the request context
    * here, so we can know about the user making requests
    */
+  //Pass in config options here
   initialize(config) {
     this.context = config.context;
   }
