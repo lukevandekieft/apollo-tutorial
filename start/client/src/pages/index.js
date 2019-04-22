@@ -45,6 +45,7 @@ export default function Pages() {
   );
 }
 
+
 client
   .query({
     query: gql`
